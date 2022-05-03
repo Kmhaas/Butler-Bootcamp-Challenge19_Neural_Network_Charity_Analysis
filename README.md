@@ -35,7 +35,7 @@ EIN and NAME—Identification columns were removed from the model.
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 In the first model 75, 25 Neurons were used to perfrom the model. In the second model 125,75, 25 neurons were used. In the third and final model 175, 125, 75, 25 neurons were used.
 4 hidden layers were used to perfrom the final model.
-Activation functions I used were simoid, relu, 
+Activation functions I used were sigmoid, relu, and linear. 
 * Were you able to achieve the target model performance?
 No I was not; I ran the model three times, each time increasing epochs and hidden layers. The closest I was able to perform was 73% accuracy I was unable to reach the 75% accuracy rating.
 
