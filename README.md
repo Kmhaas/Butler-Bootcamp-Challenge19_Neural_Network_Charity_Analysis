@@ -33,11 +33,34 @@ EIN and NAME—Identification columns, APPLICATION_TYPE—Alphabet Soup applicat
 EIN and NAME—Identification columns were removed from the model.
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Neurons were used to perfrom the model.
-3 or 4 hidden layers were used to perfrom the model.
-Activation functions I used were
+In the first model 75, 25 Neurons were used to perfrom the model. In the second model 125,75, 25 neurons were used. In the third and final model 175, 125, 75, 25 neurons were used.
+4 hidden layers were used to perfrom the final model.
+Activation functions I used were simoid, relu, 
 * Were you able to achieve the target model performance?
 No I was not; I ran the model three times, each time increasing epochs and hidden layers. The closest I was able to perform was 73% accuracy I was unable to reach the 75% accuracy rating.
 
 ## Summary 
 If I were to redo the model I would change my action functions to see if that would increase accuracy. Adding layers and neurons did increase accuracy but not to the 75% mark I was looking for. 
+
+
+![initial-model](https://user-images.githubusercontent.com/93004710/166486952-10648b4a-e80a-4d1d-8c4a-e2f980c133f9.png)
+![initial-model-scores](https://user-images.githubusercontent.com/93004710/166486972-264859bb-7f98-4cdb-8686-aba94becbde7.png)
+
+
+
+
+
+![second-model](https://user-images.githubusercontent.com/93004710/166487003-21ad9ae6-6440-4c67-b6a3-ae7ab271a8c6.png)
+![second-model-score](https://user-images.githubusercontent.com/93004710/166487034-7d58f065-8284-4b59-84bb-6b08b3e5a52a.png)
+
+
+
+
+
+![final-model](https://user-images.githubusercontent.com/93004710/166487068-b0cb8c02-793f-4641-bca6-44d6d9bf2647.png)
+![final-model-scores](https://user-images.githubusercontent.com/93004710/166487090-6d55b747-e19b-42ca-b3e8-70a38f8bc557.png)
+
+
+
+
+
