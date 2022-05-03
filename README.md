@@ -26,13 +26,18 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
+IS_SUCCESSFUL—Was the money used effectively, was the target varibale for the model.
 * What variable(s) are considered to be the features for your model?
+EIN and NAME—Identification columns, APPLICATION_TYPE—Alphabet Soup application type, AFFILIATION—Affiliated sector of industry, CLASSIFICATION—Government organization classification, USE_CASE—Use case for funding, ORGANIZATION—Organization type, STATUS—Active status, INCOME_AMT—Income classification, SPECIAL_CONSIDERATIONS—Special consideration for application, ASK_AMT—Funding amount requested, were all features used in the model except two that were removed.
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+EIN and NAME—Identification columns were removed from the model.
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Neurons were used to perfrom the model.
+3 or 4 hidden layers were used to perfrom the model.
+Activation functions I used were
 * Were you able to achieve the target model performance?
-* What steps did you take to try and increase model performance?
+No I was not; I ran the model three times, each time increasing epochs and hidden layers. The closest I was able to perform was 73% accuracy I was unable to reach the 75% accuracy rating.
 
-
-## Summary: 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+## Summary 
+If I were to redo the model I would change my action functions to see if that would increase accuracy. Adding layers and neurons did increase accuracy but not to the 75% mark I was looking for. 
